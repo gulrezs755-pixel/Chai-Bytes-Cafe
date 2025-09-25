@@ -1,0 +1,146 @@
+<!Doctype HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Chai & Bytes Cafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&family=Story+Script&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Title */
+.header {
+  padding: 1px;
+  text-align: center;
+  background: #6e3db3;
+  color:rgb(7, 3, 10);
+  font-family: "Libertinus Keyboard", system-ui;
+  font-weight: 10px;
+  font-style:italic;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    display: flex;
+    background-color: rgb(126, 192, 230);
+    border: 2px solid #917daf;
+    border-radius: 12px;
+    padding: 5px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Style the navigation bar links */
+.navbar a {
+  color: rgb(7, 9, 58);
+  padding: 25px 18px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #fdfcfcec;
+  color: black;
+} 
+
+/* Column container */
+.row {  
+  display: flex;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 20%;
+  background-color: #bdafaf;
+  padding: 10px;
+}
+
+/* Main column */
+.main {
+  flex: 60%;
+  background-image: url(webpageimg.jpg);
+  padding: 10px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) 
+{ 
+  .row, .navbar {   
+    flex-direction: column;
+  }
+  }
+.footer{
+  background-color: #6e3db3;
+  padding-top:1px;
+}
+.container{
+  width: 1200px;
+  padding-left: 20px;
+}
+.h3{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.p{
+  font-size: 15px;
+  
+}
+
+.bottom-bar{
+  font-size: 25px;
+  text-align:center;
+}
+</style>
+</head>
+<body>
+<!-- Header -->
+<div class="header"><h2 style="font-size: 35px;">Chai&BytesCafe</h2></div>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+    <span style='font-size:50px;'>&#9749;</span>
+	<a href="Chai and Bytes Cafe.html"target="_blank">Home</a> 
+  <a href="CBC Menu.html"target="_blank">Menu</a> 
+  <a href="CBC Gallery.html"target="_blank">Gallery</a> 
+  <a href="CBC Cantact Us.html"target="_blank">Contact</a> 
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h1>About Me</h1>
+    <h5 style="font-size: 20px;">The "story of a cafe" can refer to several things: the origin of coffeehouses, the history of the term "café," specific cafe brands, or the daily human stories that unfold within them. Historically, coffeehouses began as gathering places for conversation, music, and intellectual discourse in the Arab world in the 15th century, spreading to Europe and beyond, eventually leading to the modern establishment that serves coffee, tea, and light refreshments. Today, cafes are integral to many cultures, and their stories include their establishment, their role in society, and the personal experiences of their patrons. </h5>
+  </div>
+  
+  <div class="main"></div>
+</div>
+  <footer class="footer">
+    <div class="container">
+        <div>
+          <h3 class="h3">Contact Us</h3>
+          <p class="p"><i class="fas fa-phone-volume">+022 5566 7788</i></p>
+          <p class="p"><i class="fas fa-phone-volume">+022 5566 7789</i></p>
+          <p class="p"><i class="fa-solid fa-envelope">-Email:Info@example.com</i></p>
+          <p class="p"><i class="fa-solid fa-location-dot">-Address:Add Your Address here</i></p>
+        </div>
+        
+        <div class="bottom-bar">
+          <p class="bottom-bar">&copy; 2025 your company . All rights reserved</p>
+        </div>
+    </div>
+  </footer>
+
+</body>
+</html>

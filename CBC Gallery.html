@@ -1,0 +1,96 @@
+<!Doctype HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Chai&Bytes Cafe Gallery</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&family=Story+Script&display=swap" rel="stylesheet">     
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+.header{
+  background-color: #6e3db3;
+  padding: 0.5px;
+  font-family: "Libertinus Keyboard", system-ui;
+  font-weight: 10px;
+  font-style:italic;
+}
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: rgb(126, 192, 230);
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-image: url(main-displayimage.jpg);
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  padding: 20px;
+}
+
+.img1 {
+  background-image: url(Side-Image1.png);
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+.img2 {
+  background-image: url(Side-Image2.jpg);
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+.img3 {
+  background-image: url(Side-Image3.jpg);
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+
+/* Footer */
+.footer {
+  background-color: #6e3db3;
+  padding: 10px;
+  width: 100%;
+  font-size: 20px;
+}
+
+</style>
+</head>
+<body>
+
+ <!-- Header -->
+<div class="header"><h2 style="font-size: 35px;">Chai & Bytes Cafe Gallery</h2></div> 
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h3>Turkish-MasalaChai</h3>
+    <div class="img1" style="height:60px;"></div><br>
+    <h3>Masala-Tea</h3>
+    <div class="img2" style="height:60px;"></div><br>
+    <h3>Special Coffee</h3>
+    <div class="img3" style="height:60px;"></div><br>
+  </div>
+  <div class="main">
+  </div>
+<!-- Footer -->
+  <div class="footer">Contact in This Number 98XXXXXX</div>
+
+</body>
+</html>
